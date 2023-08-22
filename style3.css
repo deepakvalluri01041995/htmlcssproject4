@@ -1,0 +1,54 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body{
+    max-width: 1440px;
+    background-color: #0D0D0D;
+    color: #FFFFFF;
+    margin: 8%;
+}
+
+h1 {text-align: center;}
+
+.paragraph {text-align: center; padding-top: 5%;}
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 40px;
+    border-radius: 1px white;
+}
+/*body{
+   background-image: url('Rectangle\ 6773.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+}*/
+
+.subheading{
+    margin: 8%;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Rectangle\ 6773.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav ul{
+    display: flex;
+    gap: 20%;
+}
+

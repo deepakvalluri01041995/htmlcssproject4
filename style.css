@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+    background-color: #0D0D0D;
+    color: white;
+    margin: 2%;
+    
+}
+
+nav{
+    height: 10vh;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+
+nav ul{
+    display: flex;
+    gap: 20%;
+}
+
+.leftsection h1{
+    margin: 30px;
+    font-size: 60px;
+}
+
+.leftsection p{
+    color: #DADBDD;
+    margin: 30px;
+}
+
+main{
+    display: flex;
+}
+
+.img1, .img2{
+    position: absolute;
+    right: 1;
+}
+
+.rightsection, .img1, .img2{
+    justify-content: starts;
+    display: flex;
+    margin-right: 20%;
+    height: 500px;
+    width: 40px;
+}
+
+.int{
+    display: flex;
+    gap: 40px;
+}
+
+.logo{
+    display: flex;
+    padding: 8%;
+    justify-content: space-between;
+    gap: 2%;
+}
+
+/*.bigparagraph{
+    margin-left: 15px;
+    font-size: 32px;
+}
+
+.smallparagraph{
+    justify-content: flex-end;
+    margin-right: 4%;
+    display: flex;
+    font-size: 25px;
+}*/
+
+.dollor, .cloud, .lock{
+    margin: 8%;
+    font-size: 23px;
+    display: inline-block;
+}
+
+.dollor, .cloud, .lock {border-style: solid;}
+
